@@ -2,10 +2,10 @@
 function highlight(el){
     //el.style.backgroundColor='blue';
 
-    if(el.style.backgroundColor == 'white'){//white turn to tellow
+    if(el.style.backgroundColor == '#EAF4F4'){//white turn to tellow
         el.style.backgroundColor='yellow';
     }else{//turn to white
-        el.style.backgroundColor='white';
+        el.style.backgroundColor='#EAF4F4';
     }
 
 }
@@ -21,7 +21,7 @@ function highlightActor(actor){
         if(actor == mySpan.dataset.actor){//white turn to tellow
             mySpan.style.backgroundColor='yellow';
         }else{//turn to white
-            mySpan.style.backgroundColor='white';
+            mySpan.style.backgroundColor='#EAF4F4';
         }
 
     
